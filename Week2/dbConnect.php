@@ -23,3 +23,5 @@ $db = new mysqli(
 if($db->connect_errno) {
     die('Connect failed['.$db->connect_error.']');
 }
+
+?>
