@@ -6,17 +6,14 @@
  * Time: 15:45
  */
 
-define('hostname','us-cdbr-azure-southcentral-f.cloudapp.net');
-define('username','b506d8420b1df6');
-define('password','e2ca163b');
-define('db_name','jm1611267db');
+
 
 // Connect to csdm webdev server and select database
 $db = new mysqli(
-    hostname,
-    username,
-    password,
-    db_name
+    'us-cdbr-azure-southcentral-f.cloudapp.net',
+    'b506d8420b1df6',
+    'e2ca163b',
+    'jm1611267db'
 );
 
 // Test if connection was established, and print any errors
