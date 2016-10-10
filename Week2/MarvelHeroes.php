@@ -8,11 +8,6 @@
 
 include("dbConnect.php");
 
-// Test if connection was established, and print any errors
-if($db->connect_errno) {
-    die('Connect failed['.$db->connect_error.']');
-}
-
 // Create a SQL Query as a String
 $sql_query = "SELECT * FROM marvelmovies";
 // Execute the SQL Query
