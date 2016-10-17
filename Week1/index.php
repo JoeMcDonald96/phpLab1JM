@@ -6,6 +6,7 @@
 <p>
     <?php
     echo "Hello World";
+    include'helloSelector.php';
     ?>
 </p>
 </body>
