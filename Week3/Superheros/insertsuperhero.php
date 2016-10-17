@@ -12,5 +12,5 @@ $firstName = $_GET["firstName"];
 $lastName = $_GET["lastName"];
 $mainSuperpower = $_GET["mainSuperpower"];
 
-echo $firstName . $lastName . $mainSuperpower;
+echo "<p>$firstName . $lastName . $mainSuperpower</p>";
 
