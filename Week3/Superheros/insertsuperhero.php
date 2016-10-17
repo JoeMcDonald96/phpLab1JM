@@ -1,16 +1,22 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: 1611267
- * Date: 17/10/2016
- * Time: 14:19
- */
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
 
-include 'phpLab1JM/Week2/dbConnect.php';
+<?php
+//include 'phpLab1JM/Week2/dbConnect.php';
 
 $firstName = $_GET["firstName"];
 $lastName = $_GET["lastName"];
 $mainSuperpower = $_GET["mainSuperpower"];
 
 echo "<p>$firstName . $lastName . $mainSuperpower</p>";
+
+?>
+
+</body>
+</html>
+
 
