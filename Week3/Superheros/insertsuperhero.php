@@ -12,7 +12,7 @@ $firstName = $_GET["firstName"];
 $lastName = $_GET["lastName"];
 $mainSuperpower = $_GET["mainSuperpower"];
 
-echo "<p>{$firstName} {$lastName} {$mainSuperpower}</p>";
+echo "<p>{$firstName} {$lastName} {$mainSuperpower}</p>"
 
 ?>
 
