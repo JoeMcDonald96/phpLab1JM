@@ -8,9 +8,9 @@
 <?php
 //include 'phpLab1JM/Week2/dbConnect.php';
 
-$firstName = $_GET["firstName"];
-$lastName = $_GET["lastName"];
-$mainSuperpower = $_GET["mainSuperpower"];
+$firstName = $_POST["firstName"];
+$lastName = $_POST["lastName"];
+$mainSuperpower = $_POST["mainSuperpower"];
 
 echo "<p>{$firstName} {$lastName} {$mainSuperpower}</p>"
 
